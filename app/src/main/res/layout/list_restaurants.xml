@@ -2,6 +2,8 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="15dp"
     app:cardCornerRadius="12dp">
@@ -16,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="233dp"
             android:scaleType="centerCrop"
-            android:src="@mipmap/img_list_item" />
+            android:src="@drawable/img_list_restaurant" />
 
         <TextView
             android:id="@+id/txtRestaurantName"

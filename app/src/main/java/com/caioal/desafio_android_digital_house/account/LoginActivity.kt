@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.caioal.desafio_android_digital_house.MainActivity
+import com.caioal.desafio_android_digital_house.ListRestaurantsActivity
 import com.caioal.desafio_android_digital_house.R
 
 class LoginActivity : AppCompatActivity() {
@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
 
 
         btnLogin.setOnClickListener(){
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, ListRestaurantsActivity::class.java)
             startActivity(intent)
         }
 
