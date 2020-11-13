@@ -5,4 +5,7 @@
     <string name="log_in">LOG IN</string>
     <string name="register">REGISTER</string>
     <string name="or">OR</string>
+    <string name="name">Name</string>
+    <string name="repeate_password">Repeate Password</string>
+    <string name="tony_roma_s">Tony Roma\'s</string>
 </resources>

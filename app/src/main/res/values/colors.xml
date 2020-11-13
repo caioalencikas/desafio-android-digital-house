@@ -6,4 +6,5 @@
     <color name="colorButton">#FF5252</color>
     <color name="colorLine">#C0CCDA</color>
     <color name="colorTextPrimary">#3F51B5</color>
+    <color name="colorBackground">#DDDDDD</color>
 </resources>
