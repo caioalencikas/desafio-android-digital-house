@@ -2,6 +2,7 @@ package com.caioal.desafio_android_digital_house
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
 
 class PlateActivity : AppCompatActivity() {
@@ -18,5 +19,10 @@ class PlateActivity : AppCompatActivity() {
         txtName.text = name
         txtDescription.text = description
 
+        val backPlate = findViewById<ImageView>(R.id.imgBackPlate)
+
+        backPlate.setOnClickListener() {
+            onBackPressed()
+        }
     }
 }

@@ -3,6 +3,7 @@ package com.caioal.desafio_android_digital_house
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -30,5 +31,9 @@ class ListRestaurantsActivity : AppCompatActivity() {
             layoutManager = viewManager
             adapter = viewAdapter
         }
+
+
+
+
     }
 }

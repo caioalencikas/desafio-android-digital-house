@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PlateActivity"></activity>
+        <activity android:name=".SplashScreenAcitivity"
+                android:theme="@style/SplashTheme">
+        </activity>
+        <activity android:name=".PlateActivity" />
         <activity android:name=".ListPlatesActivity" />
         <activity android:name=".account.RegisterActivity" />
         <activity android:name=".ListRestaurantsActivity" />
