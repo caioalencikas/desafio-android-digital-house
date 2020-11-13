@@ -26,7 +26,7 @@ class ListPlatesActivity : AppCompatActivity() {
             ,
             R.drawable.img_list_plate
         )
-        val listPlates = arrayListOf(plate1, plate1, plate1, plate1, plate1, plate1)
+        val listPlates = arrayListOf(plate1, plate1, plate1, plate1, plate1, plate1, plate1, plate1, plate1, plate1, plate1)
 
         val viewAdapter = ListPlatesAdapter(listPlates) {
             val intent = Intent(this, PlateActivity::class.java)

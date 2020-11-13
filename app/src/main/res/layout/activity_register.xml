@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/name"
+        android:fontFamily="@font/roboto"
         android:layout_marginTop="20dp"
         android:layout_marginHorizontal="20dp"
         app:boxBackgroundColor="#fff"
@@ -19,15 +20,18 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtTxtNameRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
+            android:fontFamily="@font/roboto"
             android:textColor="@color/colorTextPrimary"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmailRegister"
+        android:fontFamily="@font/roboto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
@@ -39,9 +43,11 @@
         app:layout_constraintTop_toBottomOf="@+id/txtNameRegister">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtTxtEmailRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:fontFamily="@font/roboto"
             android:textColor="@color/colorTextPrimary"/>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -49,6 +55,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtPasswordRegister"
         android:layout_width="match_parent"
+        android:fontFamily="@font/roboto"
         android:layout_height="wrap_content"
         android:hint="@string/password"
         app:boxBackgroundColor="#fff"
@@ -59,8 +66,10 @@
         app:layout_constraintTop_toBottomOf="@+id/txtEmailRegister">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtTxtPasswordRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
             android:textColor="@color/colorTextPrimary"
             android:inputType="textPassword"/>
 
@@ -71,6 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/repeate_password"
+        android:fontFamily="@font/roboto"
         app:boxBackgroundColor="#fff"
         android:layout_marginTop="5dp"
         android:layout_marginHorizontal="20dp"
@@ -79,8 +89,10 @@
         app:layout_constraintTop_toBottomOf="@+id/txtPasswordRegister">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtTxtRepeatePasswordRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
             android:textColor="@color/colorTextPrimary"
             android:inputType="textPassword"/>
 
@@ -90,6 +102,7 @@
         android:id="@+id/btnRegisterRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
         android:text="@string/register"
         android:layout_marginBottom="16dp"
         android:layout_marginHorizontal="20dp"

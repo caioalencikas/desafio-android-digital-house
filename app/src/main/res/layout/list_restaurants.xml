@@ -13,21 +13,29 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="12dp"
+            >
         <ImageView
             android:id="@+id/imgRestaurant"
             android:layout_width="match_parent"
-            android:layout_height="233dp"
+            android:layout_height="match_parent"
             android:scaleType="centerCrop"
             android:src="@drawable/img_list_restaurant" />
+        </com.google.android.material.card.MaterialCardView>
 
         <TextView
             android:id="@+id/txtRestaurantName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
-            android:layout_marginTop="5dp"
-            android:backgroundTint="#ffffff"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/roboto"
             android:text="@string/tony_roma_s"
+            android:textColor="@color/colorTextPrimaryDark"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
+            android:fontFamily="@font/roboto"
             android:text="Av. Lavandisca, 717 - Indianópolis, São Paulo"
             android:textSize="12sp" />
 
@@ -44,6 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="10dp"
+            android:fontFamily="@font/roboto"
             android:text="Fecha às 22:00"
             android:textSize="12sp" />
 
