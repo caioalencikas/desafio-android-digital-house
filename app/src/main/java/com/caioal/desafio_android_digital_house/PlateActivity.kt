@@ -10,8 +10,13 @@ class PlateActivity : AppCompatActivity() {
         setContentView(R.layout.activity_plate)
 
         val name = intent.getStringExtra("Name")!!
+        val description = intent.getStringExtra("Description")!!
+
         val txtName = findViewById<TextView>(R.id.txtPlateName)
+        val txtDescription = findViewById<TextView>(R.id.txtPlateDescription)
+
         txtName.text = name
+        txtDescription.text = description
 
     }
 }
